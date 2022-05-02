@@ -43,7 +43,7 @@ public static void main(String[] args) {
     		}
 	    }
 			
-	    catch (InputMismatchException e) {
+	    catch (InputMismatchException e) {//catch block
 		System.out.println("Enter a valid input");
 		k++;
 	}
