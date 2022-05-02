@@ -35,7 +35,7 @@ public static void main(String[] args) {
     				System.out.println(n+" "+run(n));
     			}
     		}
-    		 catch (InputMismatchException e) {
+    		 catch (InputMismatchException e) {//catch block
     				System.out.println("Enter a valid input");
     				l++;
     				break;
