@@ -1,0 +1,17 @@
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.csproj.AssemblyReference.cache
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.AssemblyInfoInputs.cache
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.AssemblyInfo.cs
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.csproj.CoreCompileInputs.cache
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\bin\Debug\net6.0\DotNetPractice.exe
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\bin\Debug\net6.0\DotNetPractice.deps.json
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\bin\Debug\net6.0\DotNetPractice.runtimeconfig.json
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\bin\Debug\net6.0\DotNetPractice.dll
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\bin\Debug\net6.0\DotNetPractice.pdb
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.dll
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\obj\Debug\net6.0\refint\DotNetPractice.dll
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.pdb
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.genruntimeconfig.cache
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\obj\Debug\net6.0\ref\DotNetPractice.dll
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\bin\Debug\net6.0\Humanizer.dll
+C:\Users\KoduvayurAghoraAravi\source\repos\Practice\DotNetPractice\obj\Debug\net6.0\DotNetPractice.csproj.CopyComplete

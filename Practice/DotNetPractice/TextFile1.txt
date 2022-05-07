@@ -1,0 +1,17 @@
+﻿SumOfDigits obj = new SumOfDigits();
+Console.WriteLine($" Sum of digits is {obj.SumOfDigitsMethod(12345)}");
+
+FibonacciSeries obj1 = new FibonacciSeries();
+obj1.FibonacciRun();
+
+PrimeOrNot obj2 = new PrimeOrNot(7);
+obj2.PrimeCheck();
+
+String str = "Hello Good Morning";
+Console.WriteLine(str.ToLower());
+
+ CountOfPrime obj3 = new CountOfPrime();
+Console.WriteLine(obj3.CountOfPrimeMethod(new int[] { 2,3, 5,7,11,13,17,19})) ;
+
+Console.WriteLine("Pant".Pluralize());
+Console.WriteLine(2220291898882.ToWords());

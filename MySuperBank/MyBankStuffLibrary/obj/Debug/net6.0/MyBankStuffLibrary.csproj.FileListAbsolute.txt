@@ -1,0 +1,12 @@
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MyBankStuffLibrary\bin\Debug\net6.0\MyBankStuffLibrary.deps.json
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MyBankStuffLibrary\bin\Debug\net6.0\MyBankStuffLibrary.dll
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MyBankStuffLibrary\bin\Debug\net6.0\MyBankStuffLibrary.pdb
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MyBankStuffLibrary\obj\Debug\net6.0\MyBankStuffLibrary.csproj.AssemblyReference.cache
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MyBankStuffLibrary\obj\Debug\net6.0\MyBankStuffLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MyBankStuffLibrary\obj\Debug\net6.0\MyBankStuffLibrary.AssemblyInfoInputs.cache
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MyBankStuffLibrary\obj\Debug\net6.0\MyBankStuffLibrary.AssemblyInfo.cs
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MyBankStuffLibrary\obj\Debug\net6.0\MyBankStuffLibrary.csproj.CoreCompileInputs.cache
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MyBankStuffLibrary\obj\Debug\net6.0\MyBankStuffLibrary.dll
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MyBankStuffLibrary\obj\Debug\net6.0\refint\MyBankStuffLibrary.dll
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MyBankStuffLibrary\obj\Debug\net6.0\MyBankStuffLibrary.pdb
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MyBankStuffLibrary\obj\Debug\net6.0\ref\MyBankStuffLibrary.dll

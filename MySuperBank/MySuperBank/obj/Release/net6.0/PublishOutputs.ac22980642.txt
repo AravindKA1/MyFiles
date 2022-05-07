@@ -1,0 +1,8 @@
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MySuperBank\bin\Release\net6.0\publish\MySuperBank.exe
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MySuperBank\bin\Release\net6.0\publish\MySuperBank.dll
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MySuperBank\bin\Release\net6.0\publish\MySuperBank.deps.json
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MySuperBank\bin\Release\net6.0\publish\MySuperBank.runtimeconfig.json
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MySuperBank\bin\Release\net6.0\publish\MySuperBank.pdb
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MySuperBank\bin\Release\net6.0\publish\Humanizer.dll
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MySuperBank\bin\Release\net6.0\publish\MyBankStuffLibrary.dll
+C:\Users\KoduvayurAghoraAravi\source\repos\MySuperBank\MySuperBank\bin\Release\net6.0\publish\MyBankStuffLibrary.pdb

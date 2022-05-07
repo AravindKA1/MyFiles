@@ -1,0 +1,8 @@
+C:\Users\KoduvayurAghoraAravi\source\repos\LINQ_Practice\LINQ_Project\bin\Debug\LINQ_Project.exe.config
+C:\Users\KoduvayurAghoraAravi\source\repos\LINQ_Practice\LINQ_Project\bin\Debug\LINQ_Project.exe
+C:\Users\KoduvayurAghoraAravi\source\repos\LINQ_Practice\LINQ_Project\bin\Debug\LINQ_Project.pdb
+C:\Users\KoduvayurAghoraAravi\source\repos\LINQ_Practice\LINQ_Project\obj\Debug\LINQ_Project.csproj.AssemblyReference.cache
+C:\Users\KoduvayurAghoraAravi\source\repos\LINQ_Practice\LINQ_Project\obj\Debug\LINQ_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\KoduvayurAghoraAravi\source\repos\LINQ_Practice\LINQ_Project\obj\Debug\LINQ_Project.csproj.CoreCompileInputs.cache
+C:\Users\KoduvayurAghoraAravi\source\repos\LINQ_Practice\LINQ_Project\obj\Debug\LINQ_Project.exe
+C:\Users\KoduvayurAghoraAravi\source\repos\LINQ_Practice\LINQ_Project\obj\Debug\LINQ_Project.pdb

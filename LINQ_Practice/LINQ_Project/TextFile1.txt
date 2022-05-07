@@ -1,0 +1,264 @@
+﻿Query Syntax:
+List<int> integerList = new List<int>() {1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12};
+var QuerySyntax = from obj in integerList
+                  where obj > 5
+                  select obj;
+
+foreach (var item in QuerySyntax)
+{
+    Console.Write(item + " ");
+}
+-----------------------------------------------------------
+Query Method Syntax:
+List<int> integerList = new List<int>() {1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12};
+var QuerySyntax = integerList.Where(obj => obj > 5).ToList();
+
+foreach (var item in QuerySyntax)
+{
+    Console.Write(item + " ");
+}
+-------------------------------------------------------------
+Query Mixed Syntax:
+List<int> integerList = new List<int>() {1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12};
+var QuerySyntax = (from obj in integerList
+                   where obj > 5
+                   select obj).Sum();
+Console.WriteLine(QuerySyntax);
+-------------------------------------------------
+Aggregate functons:
+List<int> integerList = new List<int>() {1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12};
+
+            Console.WriteLine($"Maximum of list is {integerList.Max()}");
+
+            Console.WriteLine($"Minimum of list is {integerList.Min()}");
+
+            Console.WriteLine($"Count of list is {integerList.Count()}");
+
+            int product = integerList.Aggregate((a,b)=>a*b);
+            Console.WriteLine($"Product of the list {product}");
+
+            int sum = integerList.Aggregate((a, b) => a + b);
+            Console.WriteLine($"Sum of the list {sum}");
+
+            Console.WriteLine($"Sum of the lsit {integerList.Sum()}");
+
+            List<string> list = new List<string>() { "Aravind", "is", "in", "2nd", "floor." };
+            Console.WriteLine(list.Aggregate((a, b) => a + " " + b));
+-------------------------------------------------------------------------------
+LINQ Sorting Operators: OrderBy, ThenBy, OrderByDescending, ThenByDescending
+
+OrderBy and ThenBy:
+
+List<Student> studentObj = new List<Student>()
+            {
+                new Student(){Name="AAravind",Gender="AMale",Subjects=new List<string>(){"Java",".NET"} },
+                new Student(){Name="BAravind",Gender="BMale",Subjects=new List<string>(){"Java",".NET"} },
+                new Student(){Name="CAravind",Gender="CMale",Subjects=new List<string>(){"Java",".NET"} },
+                new Student(){Name="DAravind",Gender="DMale",Subjects=new List<string>(){"Java",".NET"} }
+
+            };
+            foreach (var str in studentObj.OrderBy(x => x.Name).ThenBy(x=>x.Gender))
+            {
+                Console.WriteLine($"Name: {str.Name} Gender: {str.Gender}");
+            }
+-------------------------------------------------------------------------------
+OrdeByDescending and ThenByDescending:
+
+ List<Student> studentObj = new List<Student>()
+            {
+                new Student(){Name="Aravind",Gender="AMale",Subjects=new List<string>(){"Java",".NET"} },
+                new Student(){Name="Aravind",Gender="BMale",Subjects=new List<string>(){"Java",".NET"} },
+                new Student(){Name="CAravind",Gender="CMale",Subjects=new List<string>(){"Java",".NET"} },
+                new Student(){Name="DAravind",Gender="DMale",Subjects=new List<string>(){"Java",".NET"} }
+
+            };
+            foreach (var str in studentObj.OrderByDescending(x => x.Name).ThenByDescending(x => x.Gender))
+            {
+                Console.WriteLine($"Name: {str.Name} Gender: {str.Gender}");
+            }
+-------------------------------------------------------------------------------
+LINQ Partition Operator: Take, TakeWhile, Skip, SkipWhile
+
+Take and TakeWhile:
+
+  List<int> RollNumbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
+
+            //var LimRollNum = RollNumbers.Take(6); // Linq Method
+
+            //var LimRollNum= (from rollId in RollNumbers select rollId).Take(6); //Linq Query
+
+            var LimRollNum = (from rollId in RollNumbers select rollId).TakeWhile(num=>num<6);
+
+
+            foreach (int RollNums in LimRollNum)
+            {
+                Console.WriteLine(RollNums);
+            }
+-------------------------------------------------------------------------------
+Take while with Lambda function:
+
+             List<string> list = new List<string>() { "one", "two", "three", "four", "five", "six" };
+
+            // var list1=(from nums in list select nums).TakeWhile((nums,i)=>nums.Length>i);
+
+            foreach (var nums in (from nums in list select nums).TakeWhile((nums, index) => nums.Length > index))
+            {
+                Console.WriteLine(nums);
+            }
+-------------------------------------------------------------------------------
+Skip and SkipWhile:
+
+List<int> RollNumbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
+
+            //var LimRollNum = RollNumbers.Skip(6); // Linq Method
+
+            var LimRollNum = (from rollId in RollNumbers select rollId).SkipWhile(x=>x<6); //Linq Query
+          
+            foreach (int RollNums in LimRollNum)
+            {
+                Console.WriteLine(RollNums);
+            }
+
+-------------------------------------------------------------------------------
+Conversion Operators:
+
+ToList() Method:
+ int[] Numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            List<int> NumList = Numbers.ToList();
+            foreach (int num in from n in NumList select n)
+            {
+                Console.WriteLine(num);
+            }
+
+ToArray() Method:
+ List<int> Numbers =new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            int [] NumList = Numbers.ToArray();
+            foreach (int num in from n in NumList select n)
+            {
+                Console.WriteLine(num);
+            }
+
+-------------------------------------------------------------------------------
+ToLookUp() Method: It like a grouping any attributes
+
+  List<Employee> EmpObj = new List<Employee>()
+         {
+             new Employee(){Name="Aravind",Department="CSE",Country="India"},
+             new Employee(){Name="Rahul",Department="CSE",Country="India"},
+             new Employee(){Name="Karthi",Department="CSE",Country="India"},
+             new Employee(){Name="Joyal",Department="CSE",Country="India"},
+             new Employee(){Name="Penie",Department="ECE",Country="India"},
+             new Employee(){Name="Vaseem",Department="ECE",Country="India"},
+             new Employee(){Name="Shaja",Department="EEE",Country="India"},
+             new Employee(){Name="Nandhi",Department="EEE",Country="India"},
+             new Employee(){Name="Muthu",Department="EEE",Country="India"},
+             new Employee(){Name="Kishore",Department="AI",Country="India"},
+             new Employee(){Name="Nishanth",Department="AI",Country="India"}
+             };
+            var Emp = EmpObj.ToLookup(x => x.Department).OrderBy(c => c.Key);
+            foreach (var emp in Emp)
+            {
+                Console.WriteLine(emp.Key + ":" + emp.Count());
+                foreach (var stu in emp.OrderByDescending(a => a.Name))
+                {
+                    Console.WriteLine(stu.Name + " " + stu.Department + " " + stu.Country);
+                }
+            }
+-------------------------------------------------------------------------------
+Cast Mehtod: Converting the ArryList object to string type object
+ ArrayList obj = new ArrayList();
+            obj.Add("Aravind");
+            obj.Add("Balu");
+            obj.Add("Akku");
+            obj.Add("Ambi");
+            IEnumerable<string> family = obj.Cast<string>();
+            foreach (var mem in family.OrderBy(x => x))
+            {
+                Console.WriteLine(mem);
+            }
+-------------------------------------------------------------------------------
+OfType() Method:converting the ArrayList object to String object and ignore if therw are other types other then String
+
+            ArrayList obj = new ArrayList();
+            obj.Add("Aravind");
+            obj.Add("Balu");
+            obj.Add("Akku");
+            obj.Add("Ambi");
+            obj.Add(1);
+            IEnumerable<string> family = obj.OfType<string>();
+            foreach (var mem in family.OrderBy(x => x))
+            {
+                Console.WriteLine(mem);
+            }
+-------------------------------------------------------------------------------
+AsEnumerable() Method:converting Array into the Enumerable type
+int [] NumbersArray = {1,2,3,4,5,6,7};
+            var resultArray=NumbersArray.AsEnumerable();
+            foreach(int i in resultArray.OrderByDescending(x => x))
+            {
+                Console.WriteLine(i);
+            }
+-------------------------------------------------------------------------------
+ToDictionary() Method: Convertig List obj to the key value paired Dictionary obj
+
+List<Employee> EmpObj = new List<Employee>()
+            {
+                new Employee(){Id=1,Name="Aravind",Department="CSE",Country="India"},
+                new Employee(){Id=2,Name="Balu",Department="MECH",Country="India"},
+                new Employee(){Id=3,Name="Aravind",Department="CSE",Country="India"},
+                new Employee(){Id=4,Name="Balu",Department="MECH",Country="India"},
+                new Employee(){Id=5,Name="Aravind",Department="CSE",Country="India"},
+                new Employee(){Id=6,Name="Balu",Department="MECH",Country="India"},
+                new Employee(){Id=7,Name="Aravind",Department="CSE",Country="India"},
+                new Employee(){Id=8,Name="Balu",Department="MECH",Country="India"},
+                new Employee(){Id=9,Name="Aravind",Department="CSE",Country="India"},
+                new Employee(){Id=10,Name="Balu",Department="MECH",Country="India"}
+            };
+
+            var EmpDetails = EmpObj.ToDictionary(x => x.Id, x => x.Name);
+            foreach (var emp in EmpDetails)
+            {
+                Console.WriteLine(emp);
+            }
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------

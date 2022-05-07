@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8Tnot3xvirAFKariOqZD4fTcq5wbVOVhEGSD3ybA4TXTMoVdevmVeoSO2okBwJcJJrxS0q+ZMnnrJ90R1KQ8aA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KoduvayurAghoraAravi\\source\\repos\\Practice\\DotNetPractice\\DotNetPractice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KoduvayurAghoraAravi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512"
+  ],
+  "logs": []
+}
